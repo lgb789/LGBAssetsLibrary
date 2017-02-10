@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBAssetsLibrary_Example' do
+  pod 'LGBAssetsLibrary', :path => '../'
+
+  target 'LGBAssetsLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
