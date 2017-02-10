@@ -9,7 +9,7 @@
 #import "ALAssetsLibrary+LGBCustom.h"
 //#import <Photos/Photos.h>
 
-#ifdef DEBUG
+#ifdef DEBUG_LIBRARY
 #define DDLog(fmt, ...)     NSLog(@"[%@:%d] "fmt, [[NSString stringWithFormat:@"%s", __FILE__] lastPathComponent], __LINE__, ##__VA_ARGS__)
 #else
 #define DDLog
