@@ -7,12 +7,20 @@
 //
 
 #import "LGBAppDelegate.h"
+#import "LGBMainViewController.h"
 
 @implementation LGBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[LGBMainViewController new]];
+    self.window.rootViewController = navigation;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

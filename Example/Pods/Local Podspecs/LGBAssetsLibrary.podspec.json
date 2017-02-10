@@ -1,0 +1,22 @@
+{
+  "name": "LGBAssetsLibrary",
+  "version": "0.1.0",
+  "summary": "保存照片视频到自定义相册",
+  "description": "AssetsLibrary Catergory\n保存照片视频到自定义相册",
+  "homepage": "https://github.com/lgb789/LGBAssetsLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lgb789@126.com": "lgb789@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lgb789/LGBAssetsLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "LGBAssetsLibrary/Classes/**/*"
+}

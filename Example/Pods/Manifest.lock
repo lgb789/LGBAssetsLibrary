@@ -1,0 +1,16 @@
+PODS:
+  - LGBAssetsLibrary (0.1.0)
+
+DEPENDENCIES:
+  - LGBAssetsLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  LGBAssetsLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBAssetsLibrary: 5c28a3c79b0d9c6fd2203d3cfeb54fb292c7a984
+
+PODFILE CHECKSUM: c8a7b0c6925abbb9f314c7ef586ffa3444a71746
+
+COCOAPODS: 1.1.1

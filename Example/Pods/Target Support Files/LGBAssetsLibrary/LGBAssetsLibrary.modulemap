@@ -1,0 +1,6 @@
+framework module LGBAssetsLibrary {
+  umbrella header "LGBAssetsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
